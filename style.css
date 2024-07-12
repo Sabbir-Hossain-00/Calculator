@@ -56,6 +56,7 @@ html,body{
     color: #fff;
     font-weight: 700;
     box-shadow: 0px 0px 10px rgb(124, 124, 124);
+    cursor: pointer;
 }
 
 #equal{
@@ -63,6 +64,24 @@ html,body{
     border-radius: 2vw;
     background-color: #f9c112;
     box-shadow: 0px 0px 10px #f9c112;
+    
+}
+.row .btn:hover{
+    background-color: black;
+    transition: all ease 0.5s;
+}
+#equal:hover{
+    background-color: black;
+}
+.row .btn:nth-child(4):hover{
+    background-color: black;
+}
+#row-1 .btn:nth-child(4):hover{
+    background-color:  black;
+}
+
+#row-1 .btn:hover{
+    background-color:  black;
 }
 
 .row .btn{
