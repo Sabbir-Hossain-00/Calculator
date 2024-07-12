@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 24vw;
+    height: 40vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1vw;
+    padding: 1vw 0;
+    box-shadow: 0px 0px 10px black;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3vw;
+}
+.row input{
+    width: 21vw;
+    height: 6vw;
+    border: none;
+    margin: 2vw 0;
+    border-radius: 1vw;
+    font-size: 2vw;
+    color: #fff;
+    padding: 0 1vw;
+    font-weight: 700;
+    box-shadow: 0px 0px 10px rgb(124, 124, 124);
+    background-color: #3e3e3e;
+    text-align: end;
+}
+.btn{
+    width: 4.5vw;
+    height: 4.5vw;
+    font-size: 2vw;
+    text-align: center;
+    border-radius: 50%;
+    border: none;
+    margin: 0.5vw 0.4vw;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 0px 0px 10px rgb(124, 124, 124);
+}
+
+#equal{
+    width: 10vw;
+    border-radius: 2vw;
+    background-color: #f9c112;
+    box-shadow: 0px 0px 10px #f9c112;
+}
+
+.row .btn{
+    background-color:#3e3e3e;
+}
+#row-1 .btn{
+    background-color:#c6c6c6;
+    box-shadow: 0px 0px 10px #c6c6c6;
+}
+
+.row .btn:nth-child(4){
+    background-color:#f9c112;
+    box-shadow: 0px 0px 10px #f9c112;
+}
+#row-1 .btn:nth-child(4){
+
+    background-color:#f9c112;
+}
+
+@media (max-width:600px) {
+    .container{
+        width: 90vw;
+        height: 130vw;
+        border-radius: 4vw;
+    }
+
+    .row input{
+        width: 77vw;
+        height: 17vw;
+        border: none;
+        margin-bottom: 5vw;
+        border-radius: 4vw;
+        font-size: 6vw;
+        padding: 0 2vw;
+        text-align: end;
+    }
+    .btn{
+        width: 18vw;
+        height: 18vw;
+        font-size: 7vw;
+        text-align: center;
+        border-radius: 50%;
+        border: none;
+        margin: 1vw 1vw;
+
+    }
+
+    #equal{
+        width: 37vw;
+        border-radius: 8vw;
+        background-color: #f9c112;
+    }
+}
